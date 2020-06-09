@@ -9,6 +9,8 @@
     <title>@yield('title','Laravel-shop')</title>
 
     <link rel="stylesheet" href="{{ mix('css/app.css')}}">
+
+    <script src=""></script>
 </head>
 <body>
     <div id="app" class="{{ route_class() }}-page">
@@ -19,5 +21,6 @@
         @include('layouts._footer')
     </div>
     <script src="{{ mix('js/app.js') }}"></script>
+    @yield('scriptsAfterJs')
 </body>
 </html>
