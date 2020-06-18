@@ -1,10 +1,10 @@
-
 // Variables
-@import 'variables';
+@import "variables";
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import "universal";
 
-@import 'universal';
-
-@import 'product';
+@import "product";
+@import "cart";
